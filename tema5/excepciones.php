@@ -1,30 +1,18 @@
 <?php
-function inverse($x) {
-    if (!$x) {
-        throw new Exception('División por cero.');
-    }
-    else return 1/$x;
+function inverso($x)
+{
+   if (!$x) { //$x == 0
+      throw new Exception('División por cero.');
+   } else return 1 / $x;
 }
 
 try {
-    echo inverse(5) . "<br />";
+   echo inverso(5) . "<br />";
+   echo inverso(0) . "<br />";
+   echo inverso(8) . "<br />";
 } catch (Exception $e) {
-    echo 'Excepción capturada: ',  $e->getMessage(), "<br />";
-} finally {
-    echo "Primer finally. <br />";
+   echo 'Excepción capturada: ',  $e->getMessage(), "<br />";
 }
 
-try {
-    echo inverse(0) . "<br />";
-} catch (Exception $e) {
-    echo 'Excepción capturada: ',  $e->getMessage(), "<br />";
-} finally {
-    echo "Segundo finally. <br />";
-}
-
-// Continuar ejecución
+// Continuar la ejecución
 echo 'Hola Mundo';
-?>
-
-
-

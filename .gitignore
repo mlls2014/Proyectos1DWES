@@ -1,0 +1,13 @@
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/*
+
+# Otros
+*.log
+
+#source/*
+
+#Ignoro vendor de los subproyectos
+*/vendor

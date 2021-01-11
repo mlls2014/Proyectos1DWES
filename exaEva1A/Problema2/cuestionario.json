@@ -1,0 +1,38 @@
+[
+   {
+      "pregunta": "Año descubrimiento América",
+      "opciones": [
+         "1492",
+         "1692",
+         "1992"
+      ],
+      "respuesta": 0
+   },
+   {
+      "pregunta": "Año fin 1ª Guerra mundial",
+      "opciones": [
+         "1945",
+         "1936",
+         "1918"
+      ],
+      "respuesta": 2
+   },
+   {
+      "pregunta": "Año inicio 2ª Guerra mundial",
+      "opciones": [
+         "1945",
+         "1939",
+         "1918"
+      ],
+      "respuesta": 1
+   },
+   {
+      "pregunta": "País más poblado del mundo",
+      "opciones": [
+         "India",
+         "China",
+         "EEUU"
+      ],
+      "respuesta": 1
+   }
+]

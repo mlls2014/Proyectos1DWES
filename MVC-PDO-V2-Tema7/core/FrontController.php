@@ -37,7 +37,7 @@ class FrontController
       require $controller_path;
 
       //Si no existe la clase que buscamos y su método mostramos un error
-      if (!is_callable(array($controller, $action))) {
+      if (!is_callable(array($controller, $action),true)) {
          throw new \Exception($controller . '->' . $action . ' no existe');
       }
 
